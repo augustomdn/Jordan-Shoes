@@ -4,6 +4,7 @@ export const Container = styled.div`
     height: 100vh;
 
     scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
     overflow-y: scroll;
 `
 export const OverlaysRoot =  styled.div`

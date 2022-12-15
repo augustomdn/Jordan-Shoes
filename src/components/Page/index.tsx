@@ -12,12 +12,12 @@ export const Page: React.FC = () => {
                 <div>
                     {[
                         'Travis Scott x Air Jordan 1 Low Reverse Mocha',
-                        'Model Two',
-                        'Model Three',
-                        'Model Four',
-                        'Model Five',
-                        'Model Six',
-                        'Model Seven'
+                        'Modelo Um',
+                        'Modelo Dois',
+                        'Modelo Três',
+                        'Modelo Quatro',
+                        'Modelo Cinco',
+                        'Modelo Seis'
                     ].map(modelName => (
                         <ModelSection
                             key={modelName}
@@ -26,7 +26,7 @@ export const Page: React.FC = () => {
                             overlayNode={
                                 <DefaultOverlayContent
                                     label={modelName}
-                                    description="Order Online for Delivery"
+                                    description="Disponível para entrega"
                                 />
                             }
                         />
