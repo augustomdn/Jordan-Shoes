@@ -19,8 +19,8 @@ export const DefaultOverlayContent: React.FC<Props> = ({
             </Heading>
 
             <Buttons>
-                <button>Custom Order</button>
-                <button className="white">Existing Inventory</button>
+                <button>Fazer Pedido</button>
+                <button className="white">Presentear</button>
             </Buttons>
         </Container>
     )
